@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic SYSTEM "topic/dtd/topic.dtd">
+<topic id="topic_skr_s2x_xr">
+  <title>Test</title>
+  <body>
+    <p rm-bauart="BR" >Absatz</p>
+    <p rm-bauart="dfsfsdf"></p>
+  </body>
+</topic>
