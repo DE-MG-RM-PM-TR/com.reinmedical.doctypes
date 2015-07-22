@@ -48,7 +48,34 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Map//EN"                            -->
 <!-- ============================================================= -->
 <!--                    MAP ENTITY DECLARATIONS                    -->
 <!-- ============================================================= -->
+<!ENTITY % rm-bauart-d-dec
+SYSTEM "../../topic/dtd/rm-bauart-d-Attribute.ent"
+>
+%rm-bauart-d-dec;
 
+
+<!ENTITY % rm-feature-d-dec
+SYSTEM "../../topic/dtd/rm-feature-d-Attribute.ent"
+>
+%rm-feature-d-dec;
+
+
+<!ENTITY % rm-option-d-dec
+SYSTEM "../../topic/dtd/rm-option-d-Attribute.ent"
+>
+%rm-option-d-dec;
+
+
+<!ENTITY % rm-regulatory-d-dec
+SYSTEM "../../topic/dtd/rm-regulatory-d-Attribute.ent"
+>
+%rm-regulatory-d-dec;
+
+
+<!ENTITY % rm-typ-d-dec
+SYSTEM "../../topic/dtd/rm-typ-d-Attribute.ent"
+>
+%rm-typ-d-dec;
 <!-- ============================================================= -->
 <!--                    DOMAIN ENTITY DECLARATIONS                 -->
 <!-- ============================================================= -->
@@ -112,7 +139,34 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Map//EN"                            -->
 <!-- ============================================================= -->
 <!--                    DOMAIN ATTRIBUTE DECLARATIONS              -->
 <!-- ============================================================= -->
+<!ENTITY % rm-bauart-d-dec
+SYSTEM "../../topic/dtd/rm-bauart-d-Attribute.ent"
+>
+%rm-bauart-d-dec;
 
+
+<!ENTITY % rm-feature-d-dec
+SYSTEM "../../topic/dtd/rm-feature-d-Attribute.ent"
+>
+%rm-feature-d-dec;
+
+
+<!ENTITY % rm-option-d-dec
+SYSTEM "../../topic/dtd/rm-option-d-Attribute.ent"
+>
+%rm-option-d-dec;
+
+
+<!ENTITY % rm-regulatory-d-dec
+SYSTEM "../../topic/dtd/rm-regulatory-d-Attribute.ent"
+>
+%rm-regulatory-d-dec;
+
+
+<!ENTITY % rm-typ-d-dec
+SYSTEM "../../topic/dtd/rm-typ-d-Attribute.ent"
+>
+%rm-typ-d-dec;
 
 <!-- ============================================================= -->
 <!--                    DOMAIN EXTENSIONS                          -->
@@ -163,8 +217,13 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Map//EN"                            -->
 <!-- ============================================================= -->
 <!--                    DOMAIN ATTRIBUTE EXTENSIONS                -->
 <!-- ============================================================= -->
-<!ENTITY % props-attribute-extensions  
-  ""
+<!ENTITY % props-attribute-extensions
+"%rm-bauart-d-attribute;
+%rm-feature-d-attribute;
+%rm-option-d-attribute;
+%rm-regulatory-d-attribute;
+%rm-typ-d-attribute;
+"
 >
 <!ENTITY % base-attribute-extensions   
   ""
@@ -188,6 +247,11 @@ PUBLIC "-//OASIS//DTD DITA 1.2 Map//EN"                            -->
                          &pr-d-att; 
                          &sw-d-att;
                          &ui-d-att;
+                         &rm-bauart-d-att;
+                         &rm-feature-d-att;
+                         &rm-option-d-att;
+                         &rm-regulatory-d-att;
+                         &rm-typ-d-att;
                         ">
 
 <!-- ============================================================= -->

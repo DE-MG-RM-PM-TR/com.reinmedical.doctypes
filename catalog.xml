@@ -11,4 +11,5 @@ exist within the plug-in's directory.
     <nextCatalog catalog="reference/catalog.xml"/>
     <nextCatalog catalog="task/catalog.xml"/>
     <nextCatalog catalog="topic/catalog.xml"/>
+    <nextCatalog catalog="map/catalog.xml"/>
 </catalog>
