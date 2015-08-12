@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ================================================================================ -->
+<!--  Refer to this file by the following public identifier or an 
+      appropriate system identifier 
+PUBLIC "-//reinmedical//ENTITIES DITA bauart Attribute Domain//EN"
+      Delivered as file "bauartAttDomain.ent"  -->
+<!-- ================================================================================ -->
+
+
+<!-- ================================================================================ -->
+<!--                     ATTRIBUTE EXTENSION ENTITY DECLARATIONS                      -->
+<!-- ================================================================================ -->
+
+
+
+<!ENTITY % rm-feature-pc-interface-d-attribute
+                        "rm-feature-pc-interface CDATA #IMPLIED">
+                        
+                        
+<!-- ================================================================================ -->
+<!--                            DOMAIN ENTITY DECLARATION                             -->
+<!-- ================================================================================ -->
+
+
+
+<!ENTITY rm-feature-pc-interface-d-att
+                        "a(props rm-feature-pc-interface)">
+<!-- ================================= End of file ================================== -->

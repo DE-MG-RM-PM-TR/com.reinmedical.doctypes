@@ -119,6 +119,107 @@ SYSTEM "rm-option-d-Attribute.ent"
 >
 %rm-option-d-dec;
 
+<!ENTITY % rm-bauart-op-integrate-name-d-dec
+SYSTEM "rm-bauart-op-integrate-name-d-Attribute.ent"
+>
+%rm-bauart-op-integrate-name-d-dec;
+
+<!ENTITY % rm-bauart-op-module-typ-d-dec
+SYSTEM "rm-bauart-op-module-typ-d-Attribute.ent"
+>
+%rm-bauart-op-module-typ-d-dec;
+
+<!ENTITY % rm-bauart-op-front-typ-d-dec
+SYSTEM "rm-bauart-op-front-typ-d-Attribute.ent"
+>
+%rm-bauart-op-front-typ-d-dec;
+
+<!ENTITY % rm-bauart-op-front-fix-d-dec
+SYSTEM "rm-bauart-op-front-fix-d-Attribute.ent"
+>
+%rm-bauart-op-front-fix-d-dec;
+
+<!ENTITY % rm-bauart-op-install-tray-d-dec
+SYSTEM "rm-bauart-op-install-tray-d-Attribute.ent"
+>
+%rm-bauart-op-install-tray-d-dec;
+
+<!ENTITY % rm-feature-ip-d-dec
+SYSTEM "rm-feature-ip-d-Attribute.ent"
+>
+%rm-feature-ip-d-dec;
+
+<!ENTITY % rm-feature-power-d-dec
+SYSTEM "rm-feature-power-d-Attribute.ent"
+>
+%rm-feature-power-d-dec;
+
+<!ENTITY % rm-feature-protection-d-dec
+SYSTEM "rm-feature-protection-d-Attribute.ent"
+>
+%rm-feature-protection-d-dec;
+
+<!ENTITY % rm-feature-emc-class-d-dec
+SYSTEM "rm-feature-emc-class-d-Attribute.ent"
+>
+%rm-feature-emc-class-d-dec;
+
+<!ENTITY % rm-feature-switch-off-d-dec
+SYSTEM "rm-feature-switch-off-d-Attribute.ent"
+>
+%rm-feature-switch-off-d-dec;
+
+<!ENTITY % rm-feature-zpa-d-dec
+SYSTEM "rm-feature-zpa-d-Attribute.ent"
+>
+%rm-feature-zpa-d-dec;
+
+<!ENTITY % rm-feature-video-port-d-dec
+SYSTEM "rm-feature-video-port-d-Attribute.ent"
+>
+%rm-feature-video-port-d-dec;
+
+<!ENTITY % rm-feature-pc-port-d-dec
+SYSTEM "rm-feature-pc-port-d-Attribute.ent"
+>
+%rm-feature-pc-port-d-dec;
+
+<!ENTITY % rm-feature-pc-d-dec
+SYSTEM "rm-feature-pc-d-Attribute.ent"
+>
+%rm-feature-pc-d-dec;
+
+<!ENTITY % rm-feature-pc-card-d-dec
+SYSTEM "rm-feature-pc-card-d-Attribute.ent"
+>
+%rm-feature-pc-card-d-dec;
+
+<!ENTITY % rm-feature-pc-interface-d-dec
+SYSTEM "rm-feature-pc-interface-d-Attribute.ent"
+>
+%rm-feature-pc-interface-d-dec;
+
+<!ENTITY % rm-feature-video-controller-d-dec
+SYSTEM "rm-feature-video-controller-d-Attribute.ent"
+>
+%rm-feature-video-controller-d-dec;
+
+<!ENTITY % rm-feature-video-controller-feat-d-dec
+SYSTEM "rm-feature-video-controller-feat-d-Attribute.ent"
+>
+%rm-feature-video-controller-feat-d-dec;
+
+<!ENTITY % rm-feature-lightbox-typ-d-dec
+SYSTEM "rm-feature-lightbox-typ-d-Attribute.ent"
+>
+%rm-feature-lightbox-typ-d-dec;
+
+<!ENTITY % rm-feature-screens-d-dec
+SYSTEM "rm-feature-screens-d-Attribute.ent"
+>
+%rm-feature-screens-d-dec;
+
+
 <!-- ============================================================= -->
 <!--                    DOMAIN EXTENSIONS                          -->
 <!-- ============================================================= -->
@@ -169,6 +270,26 @@ SYSTEM "rm-option-d-Attribute.ent"
 %rm-typ-d-attribute;
 %rm-feature-d-attribute;
 %rm-option-d-attribute;
+%rm-bauart-op-integrate-name-d-attribute;
+%rm-bauart-op-module-typ-d-attribute;
+%rm-bauart-op-front-typ-d-attribute;
+%rm-bauart-op-front-fix-d-attribute;
+%rm-bauart-op-install-tray-d-attribute;
+%rm-feature-ip-d-attribute;
+%rm-feature-power-d-attribute;
+%rm-feature-protection-d-attribute;
+%rm-feature-emc-class-d-attribute;
+%rm-feature-switch-off-d-attribute;
+%rm-feature-zpa-d-attribute;
+%rm-feature-video-port-d-attribute;
+%rm-feature-pc-port-d-attribute;
+%rm-feature-pc-d-attribute;
+%rm-feature-pc-card-d-attribute;
+%rm-feature-pc-interface-d-attribute;
+%rm-feature-video-controller-d-attribute;
+%rm-feature-video-controller-feat-d-attribute;
+%rm-feature-lightbox-typ-d-attribute;
+%rm-feature-screens-d-attribute;
 "
 >
 
@@ -211,6 +332,26 @@ SYSTEM "rm-option-d-Attribute.ent"
                            &rm-typ-d-att;
                            &rm-feature-d-att;
                            &rm-option-d-att;
+                           &rm-bauart-op-integrate-name;
+                           &rm-bauart-op-module-typ;
+                           &rm-bauart-op-front-typ;
+                           &rm-bauart-op-front-fix;
+                            &rm-bauart-op-install-tray;
+                            &rm-feature-ip;
+                            &rm-feature-power;
+                            &rm-feature-protection;
+                            &rm-feature-emc-class;
+                            &rm-feature-switch-off;
+                            &rm-feature-zpa;
+                            &rm-feature-video-port;
+                            &rm-feature-pc-port;
+                            &rm-feature-pc;
+                            &rm-feature-pc-card;
+                            &rm-feature-pc-interface;
+                            &rm-feature-video-controller;
+                            &rm-feature-video-controller-feat;
+                            &rm-feature-lightbox-typ;
+                            &rm-feature-screens;
                            
   "
 >
