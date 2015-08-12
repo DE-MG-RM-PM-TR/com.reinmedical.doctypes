@@ -332,26 +332,26 @@ SYSTEM "rm-feature-screens-d-Attribute.ent"
                            &rm-typ-d-att;
                            &rm-feature-d-att;
                            &rm-option-d-att;
-                           &rm-bauart-op-integrate-name;
-                           &rm-bauart-op-module-typ;
-                           &rm-bauart-op-front-typ;
-                           &rm-bauart-op-front-fix;
-                            &rm-bauart-op-install-tray;
-                            &rm-feature-ip;
-                            &rm-feature-power;
-                            &rm-feature-protection;
-                            &rm-feature-emc-class;
-                            &rm-feature-switch-off;
-                            &rm-feature-zpa;
-                            &rm-feature-video-port;
-                            &rm-feature-pc-port;
-                            &rm-feature-pc;
-                            &rm-feature-pc-card;
-                            &rm-feature-pc-interface;
-                            &rm-feature-video-controller;
-                            &rm-feature-video-controller-feat;
-                            &rm-feature-lightbox-typ;
-                            &rm-feature-screens;
+                           &rm-bauart-op-integrate-name-d-att;
+                           &rm-bauart-op-module-typ-d-att;
+                           &rm-bauart-op-front-typ-d-att;
+                           &rm-bauart-op-front-fix-d-att;
+                            &rm-bauart-op-install-tray-d-att;
+                            &rm-feature-ip-d-att;
+                            &rm-feature-power-d-att;
+                            &rm-feature-protection-d-att;
+                            &rm-feature-emc-class-d-att;
+                            &rm-feature-switch-off-d-att;
+                            &rm-feature-zpa-d-att;
+                            &rm-feature-video-port-d-att;
+                            &rm-feature-pc-port-d-att;
+                            &rm-feature-pc-d-att;
+                            &rm-feature-pc-card-d-att;
+                            &rm-feature-pc-interface-d-att;
+                            &rm-feature-video-controller-d-att;
+                            &rm-feature-video-controller-feat-d-att;
+                            &rm-feature-lightbox-typ-d-att;
+                            &rm-feature-screens-d-att;
                            
   "
 >

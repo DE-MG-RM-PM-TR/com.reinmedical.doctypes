@@ -273,10 +273,30 @@ SYSTEM "../../topic/dtd/rm-feature-screens-d-Attribute.ent"
 <!-- ============================================================= -->
 <!ENTITY % props-attribute-extensions
 "%rm-bauart-d-attribute;
-%rm-feature-d-attribute;
-%rm-option-d-attribute;
 %rm-regulatory-d-attribute;
 %rm-typ-d-attribute;
+%rm-feature-d-attribute;
+%rm-option-d-attribute;
+%rm-bauart-op-integrate-name-d-attribute;
+%rm-bauart-op-module-typ-d-attribute;
+%rm-bauart-op-front-typ-d-attribute;
+%rm-bauart-op-front-fix-d-attribute;
+%rm-bauart-op-install-tray-d-attribute;
+%rm-feature-ip-d-attribute;
+%rm-feature-power-d-attribute;
+%rm-feature-protection-d-attribute;
+%rm-feature-emc-class-d-attribute;
+%rm-feature-switch-off-d-attribute;
+%rm-feature-zpa-d-attribute;
+%rm-feature-video-port-d-attribute;
+%rm-feature-pc-port-d-attribute;
+%rm-feature-pc-d-attribute;
+%rm-feature-pc-card-d-attribute;
+%rm-feature-pc-interface-d-attribute;
+%rm-feature-video-controller-d-attribute;
+%rm-feature-video-controller-feat-d-attribute;
+%rm-feature-lightbox-typ-d-attribute;
+%rm-feature-screens-d-attribute;
 "
 >
 <!ENTITY % base-attribute-extensions   ""                            >
@@ -315,6 +335,26 @@ SYSTEM "../../topic/dtd/rm-feature-screens-d-Attribute.ent"
                            &rm-option-d-att;
                            &rm-regulatory-d-att;
                            &rm-typ-d-att;
+                           &rm-bauart-op-integrate-name-d-att;
+                           &rm-bauart-op-module-typ-d-att;
+                           &rm-bauart-op-front-typ-d-att;
+                           &rm-bauart-op-front-fix-d-att;
+                            &rm-bauart-op-install-tray-d-att;
+                            &rm-feature-ip-d-att;
+                            &rm-feature-power-d-att;
+                            &rm-feature-protection-d-att;
+                            &rm-feature-emc-class-d-att;
+                            &rm-feature-switch-off-d-att;
+                            &rm-feature-zpa-d-att;
+                            &rm-feature-video-port-d-att;
+                            &rm-feature-pc-port-d-att;
+                            &rm-feature-pc-d-att;
+                            &rm-feature-pc-card-d-att;
+                            &rm-feature-pc-interface-d-att;
+                            &rm-feature-video-controller-d-att;
+                            &rm-feature-video-controller-feat-d-att;
+                            &rm-feature-lightbox-typ-d-att;
+                            &rm-feature-screens-d-att;
   "
 >
 
