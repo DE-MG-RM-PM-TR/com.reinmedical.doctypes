@@ -228,6 +228,11 @@ SYSTEM "../../topic/dtd/rm-feature-screens-d-Attribute.ent"
 >
 %rm-feature-screens-d-dec;
 
+<!ENTITY % rm-feature-display-d-dec
+SYSTEM "../../topic/dtd/rm-feature-display-d-Attribute.ent"
+>
+%rm-feature-display-d-dec;
+
 <!-- ============================================================= -->
 <!--                    DOMAIN EXTENSIONS                          -->
 <!-- ============================================================= -->
@@ -297,6 +302,7 @@ SYSTEM "../../topic/dtd/rm-feature-screens-d-Attribute.ent"
 %rm-feature-video-controller-feat-d-attribute;
 %rm-feature-lightbox-typ-d-attribute;
 %rm-feature-screens-d-attribute;
+%rm-feature-display-d-attribute;
 "
 >
 <!ENTITY % base-attribute-extensions   ""                            >
@@ -355,6 +361,7 @@ SYSTEM "../../topic/dtd/rm-feature-screens-d-Attribute.ent"
                             &rm-feature-video-controller-feat-d-att;
                             &rm-feature-lightbox-typ-d-att;
                             &rm-feature-screens-d-att;
+                            &rm-feature-display-d-att;
   "
 >
 

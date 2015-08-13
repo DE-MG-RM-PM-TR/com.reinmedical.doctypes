@@ -144,24 +144,20 @@ SYSTEM "../../topic/dtd/rm-bauart-d-Attribute.ent"
 >
 %rm-bauart-d-dec;
 
-
 <!ENTITY % rm-feature-d-dec
 SYSTEM "../../topic/dtd/rm-feature-d-Attribute.ent"
 >
 %rm-feature-d-dec;
-
 
 <!ENTITY % rm-option-d-dec
 SYSTEM "../../topic/dtd/rm-option-d-Attribute.ent"
 >
 %rm-option-d-dec;
 
-
 <!ENTITY % rm-regulatory-d-dec
 SYSTEM "../../topic/dtd/rm-regulatory-d-Attribute.ent"
 >
 %rm-regulatory-d-dec;
-
 
 <!ENTITY % rm-typ-d-dec
 SYSTEM "../../topic/dtd/rm-typ-d-Attribute.ent"
@@ -169,7 +165,7 @@ SYSTEM "../../topic/dtd/rm-typ-d-Attribute.ent"
 %rm-typ-d-dec;
 
 <!ENTITY % rm-bauart-op-integrate-name-d-dec
-SYSTEM "rm-bauart-op-integrate-name-d-Attribute.ent"
+SYSTEM "../../topic/dtd/rm-bauart-op-integrate-name-d-Attribute.ent"
 >
 %rm-bauart-op-integrate-name-d-dec;
 
@@ -268,6 +264,11 @@ SYSTEM "../../topic/dtd/rm-feature-screens-d-Attribute.ent"
 >
 %rm-feature-screens-d-dec;
 
+<!ENTITY % rm-feature-display-d-dec
+SYSTEM "../../topic/dtd/rm-feature-display-d-Attribute.ent"
+>
+%rm-feature-display-d-dec;
+
 <!-- ============================================================= -->
 <!--                    DOMAIN EXTENSIONS                          -->
 <!-- ============================================================= -->
@@ -343,6 +344,7 @@ SYSTEM "../../topic/dtd/rm-feature-screens-d-Attribute.ent"
 %rm-feature-video-controller-feat-d-attribute;
 %rm-feature-lightbox-typ-d-attribute;
 %rm-feature-screens-d-attribute;
+%rm-feature-display-d-attribute;
 "
 >
 <!ENTITY % base-attribute-extensions   
@@ -392,6 +394,7 @@ SYSTEM "../../topic/dtd/rm-feature-screens-d-Attribute.ent"
                             &rm-feature-video-controller-feat-d-att;
                             &rm-feature-lightbox-typ-d-att;
                             &rm-feature-screens-d-att;
+                            &rm-feature-display-d-att;
                         ">
 
 <!-- ============================================================= -->
