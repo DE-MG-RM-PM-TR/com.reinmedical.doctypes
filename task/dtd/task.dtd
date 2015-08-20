@@ -129,7 +129,7 @@ SYSTEM "../../topic/dtd/rm-typ-d-Attribute.ent"
 %rm-typ-d-dec;
 
 <!ENTITY % rm-bauart-op-integrate-name-d-dec
-SYSTEM "rm-bauart-op-integrate-name-d-Attribute.ent"
+SYSTEM "../../topic/dtd/rm-bauart-op-integrate-name-d-Attribute.ent"
 >
 %rm-bauart-op-integrate-name-d-dec;
 
