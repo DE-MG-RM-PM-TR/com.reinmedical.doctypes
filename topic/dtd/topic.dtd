@@ -149,6 +149,11 @@ SYSTEM "rm-feature-ip-d-Attribute.ent"
 >
 %rm-feature-ip-d-dec;
 
+<!ENTITY % rm-feature-commandbar-d-dec
+SYSTEM "rm-feature-commandbar-d-Attribute.ent"
+>
+%rm-feature-commandbar-d-dec;
+
 <!ENTITY % rm-feature-power-d-dec
 SYSTEM "rm-feature-power-d-Attribute.ent"
 >
@@ -280,6 +285,7 @@ SYSTEM "rm-feature-display-d-Attribute.ent"
 %rm-bauart-op-front-fix-d-attribute;
 %rm-bauart-op-install-tray-d-attribute;
 %rm-feature-ip-d-attribute;
+%rm-feature-commandbar-d-attribute;
 %rm-feature-power-d-attribute;
 %rm-feature-protection-d-attribute;
 %rm-feature-emc-class-d-attribute;
@@ -343,6 +349,7 @@ SYSTEM "rm-feature-display-d-Attribute.ent"
                            &rm-bauart-op-front-fix-d-att;
                             &rm-bauart-op-install-tray-d-att;
                             &rm-feature-ip-d-att;
+                            &rm-feature-commandbar-d-att;
                             &rm-feature-power-d-att;
                             &rm-feature-protection-d-att;
                             &rm-feature-emc-class-d-att;
