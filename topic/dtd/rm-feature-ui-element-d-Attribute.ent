@@ -13,8 +13,8 @@ PUBLIC "-//reinmedical//ENTITIES DITA bauart Attribute Domain//EN"
 
 
 
-<!ENTITY % rm-feature-switch-off-d-attribute
-                        "rm-feature-switch-off CDATA #IMPLIED">
+<!ENTITY % rm-feature-ui-element-d-attribute
+                        "rm-feature-ui-element CDATA #IMPLIED">
                         
                         
 <!-- ================================================================================ -->
@@ -23,6 +23,6 @@ PUBLIC "-//reinmedical//ENTITIES DITA bauart Attribute Domain//EN"
 
 
 
-<!ENTITY rm-feature-switch-off-d-att
-                        "a(props rm-feature-switch-off)">
+<!ENTITY rm-feature-ui-element-d-att
+                        "a(props rm-feature-ui-element)">
 <!-- ================================= End of file ================================== -->

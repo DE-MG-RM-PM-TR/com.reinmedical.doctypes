@@ -13,8 +13,8 @@ PUBLIC "-//reinmedical//ENTITIES DITA bauart Attribute Domain//EN"
 
 
 
-<!ENTITY % rm-bauart-op-front-typ-d-attribute
-                        "rm-bauart-op-front-typ CDATA #IMPLIED">
+<!ENTITY % rm-feature-ui-io-d-attribute
+                        "rm-feature-ui-io CDATA #IMPLIED">
                         
                         
 <!-- ================================================================================ -->
@@ -23,6 +23,6 @@ PUBLIC "-//reinmedical//ENTITIES DITA bauart Attribute Domain//EN"
 
 
 
-<!ENTITY rm-bauart-op-front-typ-d-att
-                        "a(props rm-bauart-op-front-typ)">
+<!ENTITY rm-feature-ui-io-d-att
+                        "a(props rm-feature-ui-io)">
 <!-- ================================= End of file ================================== -->

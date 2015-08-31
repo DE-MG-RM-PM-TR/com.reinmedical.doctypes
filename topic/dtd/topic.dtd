@@ -114,10 +114,15 @@ SYSTEM "rm-feature-d-Attribute.ent"
 >
 %rm-feature-d-dec;
 
-<!ENTITY % rm-option-d-dec
-SYSTEM "rm-option-d-Attribute.ent"
+<!ENTITY % rm-feature-touch-d-dec
+SYSTEM "rm-feature-touch-d-Attribute.ent"
 >
-%rm-option-d-dec;
+%rm-feature-touch-d-dec;
+
+<!ENTITY % rm-firma-d-dec
+SYSTEM "rm-firma-d-Attribute.ent"
+>
+%rm-firma-d-dec;
 
 <!ENTITY % rm-bauart-op-integrate-name-d-dec
 SYSTEM "rm-bauart-op-integrate-name-d-Attribute.ent"
@@ -129,11 +134,6 @@ SYSTEM "rm-bauart-op-module-typ-d-Attribute.ent"
 >
 %rm-bauart-op-module-typ-d-dec;
 
-<!ENTITY % rm-bauart-op-front-typ-d-dec
-SYSTEM "rm-bauart-op-front-typ-d-Attribute.ent"
->
-%rm-bauart-op-front-typ-d-dec;
-
 <!ENTITY % rm-bauart-op-front-fix-d-dec
 SYSTEM "rm-bauart-op-front-fix-d-Attribute.ent"
 >
@@ -144,15 +144,25 @@ SYSTEM "rm-bauart-op-install-tray-d-Attribute.ent"
 >
 %rm-bauart-op-install-tray-d-dec;
 
+<!ENTITY % rm-bauart-op-doctray-type-d-dec
+SYSTEM "rm-bauart-op-doctray-type-d-Attribute.ent"
+>
+%rm-bauart-op-doctray-type-d-dec;
+
 <!ENTITY % rm-feature-ip-d-dec
 SYSTEM "rm-feature-ip-d-Attribute.ent"
 >
 %rm-feature-ip-d-dec;
 
-<!ENTITY % rm-feature-commandbar-d-dec
-SYSTEM "rm-feature-commandbar-d-Attribute.ent"
+<!ENTITY % rm-feature-commandbar-button-d-dec
+SYSTEM "rm-feature-commandbar-button-d-Attribute.ent"
 >
-%rm-feature-commandbar-d-dec;
+%rm-feature-commandbar-button-d-dec;
+
+<!ENTITY % rm-feature-commandbar-typ-d-dec
+SYSTEM "rm-feature-commandbar-typ-d-Attribute.ent"
+>
+%rm-feature-commandbar-typ-d-dec;
 
 <!ENTITY % rm-feature-power-d-dec
 SYSTEM "rm-feature-power-d-Attribute.ent"
@@ -168,11 +178,6 @@ SYSTEM "rm-feature-protection-d-Attribute.ent"
 SYSTEM "rm-feature-emc-class-d-Attribute.ent"
 >
 %rm-feature-emc-class-d-dec;
-
-<!ENTITY % rm-feature-switch-off-d-dec
-SYSTEM "rm-feature-switch-off-d-Attribute.ent"
->
-%rm-feature-switch-off-d-dec;
 
 <!ENTITY % rm-feature-zpa-d-dec
 SYSTEM "rm-feature-zpa-d-Attribute.ent"
@@ -199,6 +204,16 @@ SYSTEM "rm-feature-pc-card-d-Attribute.ent"
 >
 %rm-feature-pc-card-d-dec;
 
+<!ENTITY % rm-feature-pc-mainboard-d-dec
+SYSTEM "rm-feature-pc-mainboard-d-Attribute.ent"
+>
+%rm-feature-pc-mainboard-d-dec;
+
+<!ENTITY % rm-feature-pc-optical-d-dec
+SYSTEM "rm-feature-pc-optical-d-Attribute.ent"
+>
+%rm-feature-pc-optical-d-dec;
+
 <!ENTITY % rm-feature-pc-interface-d-dec
 SYSTEM "rm-feature-pc-interface-d-Attribute.ent"
 >
@@ -223,6 +238,26 @@ SYSTEM "rm-feature-lightbox-typ-d-Attribute.ent"
 SYSTEM "rm-feature-screens-d-Attribute.ent"
 >
 %rm-feature-screens-d-dec;
+
+<!ENTITY % rm-feature-service-element-d-dec
+SYSTEM "rm-feature-service-element-d-Attribute.ent"
+>
+%rm-feature-service-element-d-dec;
+
+<!ENTITY % rm-feature-service-access-d-dec
+SYSTEM "rm-feature-service-access-d-Attribute.ent"
+>
+%rm-feature-service-access-d-dec;
+
+<!ENTITY % rm-feature-ui-io-d-dec
+SYSTEM "rm-feature-ui-io-d-Attribute.ent"
+>
+%rm-feature-ui-io-d-dec;
+
+<!ENTITY % rm-feature-ui-element-d-dec
+SYSTEM "rm-feature-ui-element-d-Attribute.ent"
+>
+%rm-feature-ui-element-d-dec;
 
 <!ENTITY % rm-feature-display-d-dec
 SYSTEM "rm-feature-display-d-Attribute.ent"
@@ -278,23 +313,30 @@ SYSTEM "rm-feature-display-d-Attribute.ent"
 %rm-regulatory-d-attribute;
 %rm-typ-d-attribute;
 %rm-feature-d-attribute;
-%rm-option-d-attribute;
+%rm-firma-d-attribute;
 %rm-bauart-op-integrate-name-d-attribute;
 %rm-bauart-op-module-typ-d-attribute;
-%rm-bauart-op-front-typ-d-attribute;
 %rm-bauart-op-front-fix-d-attribute;
 %rm-bauart-op-install-tray-d-attribute;
+%rm-bauart-op-doctray-type-d-attribute;
 %rm-feature-ip-d-attribute;
-%rm-feature-commandbar-d-attribute;
+%rm-feature-commandbar-typ-d-attribute;
+%rm-feature-commandbar-button-d-attribute;
 %rm-feature-power-d-attribute;
+%rm-feature-ui-io-d-attribute;
+%rm-feature-ui-element-d-attribute;
+%rm-feature-service-element-d-attribute;
+%rm-feature-service-access-d-attribute;
 %rm-feature-protection-d-attribute;
+%rm-feature-touch-d-attribute;
 %rm-feature-emc-class-d-attribute;
-%rm-feature-switch-off-d-attribute;
 %rm-feature-zpa-d-attribute;
 %rm-feature-video-port-d-attribute;
 %rm-feature-pc-port-d-attribute;
 %rm-feature-pc-d-attribute;
 %rm-feature-pc-card-d-attribute;
+%rm-feature-pc-mainboard-d-attribute;
+%rm-feature-pc-optical-d-attribute;
 %rm-feature-pc-interface-d-attribute;
 %rm-feature-video-controller-d-attribute;
 %rm-feature-video-controller-feat-d-attribute;
@@ -342,24 +384,28 @@ SYSTEM "rm-feature-display-d-Attribute.ent"
                            &rm-regulatory-d-att;
                            &rm-typ-d-att;
                            &rm-feature-d-att;
-                           &rm-option-d-att;
+                           &rm-firma-d-att;
                            &rm-bauart-op-integrate-name-d-att;
                            &rm-bauart-op-module-typ-d-att;
-                           &rm-bauart-op-front-typ-d-att;
                            &rm-bauart-op-front-fix-d-att;
                             &rm-bauart-op-install-tray-d-att;
                             &rm-feature-ip-d-att;
-                            &rm-feature-commandbar-d-att;
+                            &rm-feature-commandbar-typ-d-att;
+                            &rm-feature-commandbar-button-d-att;
                             &rm-feature-power-d-att;
                             &rm-feature-protection-d-att;
+                            &rm-feature-touch-d-att;
                             &rm-feature-emc-class-d-att;
-                            &rm-feature-switch-off-d-att;
                             &rm-feature-zpa-d-att;
                             &rm-feature-video-port-d-att;
                             &rm-feature-pc-port-d-att;
                             &rm-feature-pc-d-att;
                             &rm-feature-pc-card-d-att;
+                            &rm-feature-pc-mainboard-d-att;
+                            &rm-feature-pc-optical-d-att;
                             &rm-feature-pc-interface-d-att;
+                            &rm-feature-service-access-d-att;
+                            &rm-feature-service-element-d-att;
                             &rm-feature-video-controller-d-att;
                             &rm-feature-video-controller-feat-d-att;
                             &rm-feature-lightbox-typ-d-att;

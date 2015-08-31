@@ -13,8 +13,8 @@ PUBLIC "-//reinmedical//ENTITIES DITA bauart Attribute Domain//EN"
 
 
 
-<!ENTITY % rm-option-d-attribute
-                        "rm-option CDATA #IMPLIED">
+<!ENTITY % rm-feature-service-access-d-attribute
+                        "rm-feature-service-access CDATA #IMPLIED">
                         
                         
 <!-- ================================================================================ -->
@@ -23,6 +23,6 @@ PUBLIC "-//reinmedical//ENTITIES DITA bauart Attribute Domain//EN"
 
 
 
-<!ENTITY rm-option-d-att
-                        "a(props rm-option)">
+<!ENTITY rm-feature-service-access-d-att
+                        "a(props rm-feature-service-access)">
 <!-- ================================= End of file ================================== -->

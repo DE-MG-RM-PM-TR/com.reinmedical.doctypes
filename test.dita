@@ -4,6 +4,6 @@
   <title>Test</title>
   <body>
     <p rm-bauart="BR" >Absatz</p>
-    <p rm-bauart="dfsfsdf"></p>
+    <p rm-bauart="dfsfsdf" ></p>
   </body>
 </topic>
