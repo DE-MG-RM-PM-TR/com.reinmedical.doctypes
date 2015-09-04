@@ -407,6 +407,8 @@ SYSTEM "../../topic/dtd/rm-feature-display-d-Attribute.ent"
                             &rm-feature-pc-interface-d-att;
                             &rm-feature-service-access-d-att;
                             &rm-feature-service-element-d-att;
+                            &rm-feature-ui-io-d-att;
+                            &rm-feature-ui-element-d-att;
                             &rm-feature-video-controller-d-att;
                             &rm-feature-video-controller-feat-d-att;
                             &rm-feature-lightbox-typ-d-att;
