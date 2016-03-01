@@ -399,6 +399,7 @@ SYSTEM "../../topic/dtd/rm-feature-display-d-Attribute.ent"
                            &rm-bauart-op-integrate-name-d-att;
                            &rm-bauart-op-module-typ-d-att;
                            &rm-bauart-op-front-fix-d-att;
+                           &rm-bauart-op-doctray-type-d-att;
                             &rm-bauart-op-install-tray-d-att;
                             &rm-feature-ip-d-att;
                             &rm-feature-commandbar-typ-d-att;
