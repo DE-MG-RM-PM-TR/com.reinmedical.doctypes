@@ -315,6 +315,21 @@ SYSTEM "../../topic/dtd/rm-feature-display-d-Attribute.ent"
 >
 %rm-feature-display-d-dec;
 
+<!ENTITY % rm-feature-display-glass-d-dec
+SYSTEM "../../topic/dtd/rm-feature-display-glass-d-Attribute.ent"
+>
+%rm-feature-display-glass-d-dec;
+
+<!ENTITY % rm-dokument-typ-d-dec
+SYSTEM "../../topic/dtd/rm-dokument-typ-d-Attribute.ent"
+>
+%rm-dokument-typ-d-dec;
+
+<!ENTITY % rm-feature-commandbar-status-led-d-dec
+SYSTEM "../../topic/dtd/rm-feature-commandbar-status-led-d-Attribute.ent"
+>
+%rm-feature-commandbar-status-led-d-dec;
+
 <!-- ============================================================= -->
 <!--                    DOMAIN EXTENSIONS                          -->
 <!-- ============================================================= -->
@@ -412,6 +427,9 @@ SYSTEM "../../topic/dtd/rm-feature-display-d-Attribute.ent"
 %rm-feature-lightbox-typ-d-attribute;
 %rm-feature-screens-d-attribute;
 %rm-feature-display-d-attribute;
+%rm-feature-display-glass-d-attribute;
+%rm-feature-commandbar-status-led-d-attribute;
+%rm-dokument-typ-d-attribute;
   "
 >
 <!ENTITY % base-attribute-extensions
@@ -481,6 +499,9 @@ SYSTEM "../../topic/dtd/rm-feature-display-d-Attribute.ent"
                             &rm-feature-lightbox-typ-d-att;
                             &rm-feature-screens-d-att;
                             &rm-feature-display-d-att;
+                            &rm-feature-display-glass-d-att;
+                            &rm-feature-commandbar-status-led-d-att;
+                            &rm-dokument-typ-d-att;
   "
 >
 
