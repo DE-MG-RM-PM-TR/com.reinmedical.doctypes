@@ -7,10 +7,5 @@ top-level catalog-dita.xml without modification, so they
 need to work as they will be in that catalog, not as they
 exist within the plug-in's directory.
 -->
-    <nextCatalog catalog="concept/catalog.xml"/>
-    <nextCatalog catalog="reference/catalog.xml"/>
-    <nextCatalog catalog="task/catalog.xml"/>
-    <nextCatalog catalog="topic/catalog.xml"/>
-    <nextCatalog catalog="map/catalog.xml"/>
-    <nextCatalog catalog="bookmap/catalog.xml"/>
+    <nextCatalog catalog="dtd/catalog.xml"/>
 </catalog>

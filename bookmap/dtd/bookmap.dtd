@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ============================================================= -->
+<!--                    HEADER                                     -->
+<!-- ============================================================= -->
+<!-- Darwin Information Typing Architecture (DITA) Version 1.3     -->
+<!-- Candidate OASIS Standard 01                                           -->
+<!-- 03 September 2015                                           -->
+<!-- Copyright (c) OASIS Open 2015. All rights reserved.           -->
+<!-- Source: http://docs.oasis-open.org/dita/dita/v1.3/cos01/dita-v1.3-cos01-part0-overview.html                                -->
+<!--                                                               -->
+<!-- ============================================================= -->
+<!--  MODULE:    DITA Bookmap                                      -->
+<!--  VERSION:   1.3                                               -->
+<!--  DATE:      March 2014                                        -->
+<!--                                                               -->
+<!-- ============================================================= -->
+<!-- ============================================================= -->
+<!--                    PUBLIC DOCUMENT TYPE DEFINITION            -->
+<!--                    TYPICAL INVOCATION                         -->
+<!--                                                               -->
+<!--  Refer to this file by the following public identifier or an  -->
+<!--       appropriate system identifier                           -->
+<!-- PUBLIC "-//OASIS//DTD DITA BookMap//EN"                       -->
+<!--       Delivered as file "bookmap.dtd"                              -->
+<!-- The public ID above refers to the latest version of this DTD. -->
+<!--      To refer to this specific version, you may use this value: -->
+<!-- PUBLIC "-//OASIS//DTD DITA 1.2  BookMap//EN"                        -->
+<!-- ============================================================= -->
+<!-- SYSTEM:     Darwin Information Typing Architecture (DITA)     -->
+<!--                                                               -->
+<!-- PURPOSE:    DTD to describe DITA Book Maps                    -->
+<!--                                                               -->
+<!-- ORIGINAL CREATION DATE:                                       -->
+<!--             March 2004                                        -->
+<!--                                                               -->
+<!--             (C) Copyright OASIS Open 2006, 2014               -->
+<!--             (C) Copyright IBM Corporation 2004, 2005.         -->
+<!--             All Rights Reserved.                              -->
+<!--                                                               -->
+<!--  UPDATES:                                                     -->
+<!--    2008.02.01 RDA: Added reference to bookmap.ent             -->
+<!--    2008.02.12 RDA: Modify imbeds to use specific 1.2 version  -->
+<!--    2008.04.15 RDA: Added delay resolution domain              -->
+<!--    2010.09.21 RDA: Added base and tec. content topic domains  -->
+<!--    2014.03.13 WEK: Updated for DITA 1.3, reimplemented as RNG -->
+<!-- ============================================================= -->
+
+<!-- ============================================================= -->
+<!--                MAP ENTITY DECLARATIONS                        -->
+<!-- ============================================================= -->
+
+<!ENTITY % bookmap-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 BookMap//EN"
+         "bookmap.ent"
+>%bookmap-dec;
+
+<!-- ============================================================= -->
+<!--             DOMAIN CONSTRAINT INTEGRATION                     -->
+<!-- ============================================================= -->
+
+<!-- ============================================================= -->
+<!--             DOMAIN ENTITY DECLARATIONS                        -->
+<!-- ============================================================= -->
+
+<!ENTITY % mapgroup-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Map Group Domain//EN"
+         "../../base/dtd/mapGroup.ent"
+>%mapgroup-d-dec;
+
+<!ENTITY % abbrev-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Abbreviated Form Domain//EN"
+         "../../technicalContent/dtd/abbreviateDomain.ent"
+>%abbrev-d-dec;
+
+<!ENTITY % delay-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Delayed Resolution Domain//EN"
+         "../../base/dtd/delayResolutionDomain.ent"
+>%delay-d-dec;
+
+<!ENTITY % ditavalref-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 DITAVAL Ref Domain//EN"
+         "../../base/dtd/ditavalrefDomain.ent"
+>%ditavalref-d-dec;
+
+<!ENTITY % hazard-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Hazard Statement Domain//EN"
+         "../../base/dtd/hazardstatementDomain.ent"
+>%hazard-d-dec;
+
+<!ENTITY % hi-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Highlight Domain//EN"
+         "../../base/dtd/highlightDomain.ent"
+>%hi-d-dec;
+
+<!ENTITY % indexing-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Indexing Domain//EN"
+         "../../base/dtd/indexingDomain.ent"
+>%indexing-d-dec;
+
+<!ENTITY % markup-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Markup Domain//EN"
+         "../../technicalContent/dtd/markupDomain.ent"
+>%markup-d-dec;
+
+<!ENTITY % pr-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Programming Domain//EN"
+         "../../technicalContent/dtd/programmingDomain.ent"
+>%pr-d-dec;
+
+<!ENTITY % relmgmt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Release Management Domain//EN"
+         "../../technicalContent/dtd/releaseManagementDomain.ent"
+>%relmgmt-d-dec;
+
+<!ENTITY % sw-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Software Domain//EN"
+         "../../technicalContent/dtd/softwareDomain.ent"
+>%sw-d-dec;
+
+<!ENTITY % ui-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 User Interface Domain//EN"
+         "../../technicalContent/dtd/uiDomain.ent"
+>%ui-d-dec;
+
+<!ENTITY % ut-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Utilities Domain//EN"
+         "../../base/dtd/utilitiesDomain.ent"
+>%ut-d-dec;
+
+<!ENTITY % xnal-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 XNAL Domain//EN"
+         "../../xnal/dtd/xnalDomain.ent"
+>%xnal-d-dec;
+
+<!ENTITY % xml-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 XML Domain//EN"
+         "../../technicalContent/dtd/xmlDomain.ent"
+>%xml-d-dec;
+
+<!-- ============================================================= -->
+<!--             DOMAIN ATTRIBUTES DECLARATIONS                    -->
+<!-- ============================================================= -->
+
+<!ENTITY % deliveryTargetAtt-d-dec
+  PUBLIC "-//OASIS//ENTITIES DITA 1.3 Delivery Target Attribute Domain//EN"
+         "../../base/dtd/deliveryTargetAttDomain.ent"
+>%deliveryTargetAtt-d-dec;
+
+<!--Rein Medical-->
+
+<!ENTITY % rm-bauart-d-dec
+SYSTEM "../../topic/dtd/rm-bauart-d-Attribute.ent"
+>
+%rm-bauart-d-dec;
+
+<!ENTITY % rm-regulatory-d-dec
+SYSTEM "../../topic/dtd/rm-regulatory-d-Attribute.ent"
+>
+%rm-regulatory-d-dec;
+
+<!ENTITY % rm-typ-d-dec
+SYSTEM "../../topic/dtd/rm-typ-d-Attribute.ent"
+>
+%rm-typ-d-dec;
+
+<!ENTITY % rm-feature-d-dec
+SYSTEM "../../topic/dtd/rm-feature-d-Attribute.ent"
+>
+%rm-feature-d-dec;
+
+<!ENTITY % rm-feature-touch-d-dec
+SYSTEM "../../topic/dtd/rm-feature-touch-d-Attribute.ent"
+>
+%rm-feature-touch-d-dec;
+
+<!ENTITY % rm-firma-d-dec
+SYSTEM "../../topic/dtd/rm-firma-d-Attribute.ent"
+>
+%rm-firma-d-dec;
+
+<!ENTITY % rm-bauart-op-integrate-name-d-dec
+SYSTEM "../../topic/dtd/rm-bauart-op-integrate-name-d-Attribute.ent"
+>
+%rm-bauart-op-integrate-name-d-dec;
+
+<!ENTITY % rm-bauart-op-module-typ-d-dec
+SYSTEM "../../topic/dtd/rm-bauart-op-module-typ-d-Attribute.ent"
+>
+%rm-bauart-op-module-typ-d-dec;
+
+<!ENTITY % rm-bauart-op-front-fix-d-dec
+SYSTEM "../../topic/dtd/rm-bauart-op-front-fix-d-Attribute.ent"
+>
+%rm-bauart-op-front-fix-d-dec;
+
+<!ENTITY % rm-bauart-op-install-tray-d-dec
+SYSTEM "../../topic/dtd/rm-bauart-op-install-tray-d-Attribute.ent"
+>
+%rm-bauart-op-install-tray-d-dec;
+
+<!ENTITY % rm-bauart-op-doctray-type-d-dec
+SYSTEM "../../topic/dtd/rm-bauart-op-doctray-type-d-Attribute.ent"
+>
+%rm-bauart-op-doctray-type-d-dec;
+
+<!ENTITY % rm-feature-ip-d-dec
+SYSTEM "../../topic/dtd/rm-feature-ip-d-Attribute.ent"
+>
+%rm-feature-ip-d-dec;
+
+<!ENTITY % rm-feature-commandbar-button-d-dec
+SYSTEM "../../topic/dtd/rm-feature-commandbar-button-d-Attribute.ent"
+>
+%rm-feature-commandbar-button-d-dec;
+
+<!ENTITY % rm-feature-commandbar-typ-d-dec
+SYSTEM "../../topic/dtd/rm-feature-commandbar-typ-d-Attribute.ent"
+>
+%rm-feature-commandbar-typ-d-dec;
+
+<!ENTITY % rm-feature-power-d-dec
+SYSTEM "../../topic/dtd/rm-feature-power-d-Attribute.ent"
+>
+%rm-feature-power-d-dec;
+
+<!ENTITY % rm-feature-protection-d-dec
+SYSTEM "../../topic/dtd/rm-feature-protection-d-Attribute.ent"
+>
+%rm-feature-protection-d-dec;
+
+<!ENTITY % rm-feature-emc-class-d-dec
+SYSTEM "../../topic/dtd/rm-feature-emc-class-d-Attribute.ent"
+>
+%rm-feature-emc-class-d-dec;
+
+<!ENTITY % rm-feature-zpa-d-dec
+SYSTEM "../../topic/dtd/rm-feature-zpa-d-Attribute.ent"
+>
+%rm-feature-zpa-d-dec;
+
+<!ENTITY % rm-feature-video-port-d-dec
+SYSTEM "../../topic/dtd/rm-feature-video-port-d-Attribute.ent"
+>
+%rm-feature-video-port-d-dec;
+
+<!ENTITY % rm-feature-pc-port-d-dec
+SYSTEM "../../topic/dtd/rm-feature-pc-port-d-Attribute.ent"
+>
+%rm-feature-pc-port-d-dec;
+
+<!ENTITY % rm-feature-pc-d-dec
+SYSTEM "../../topic/dtd/rm-feature-pc-d-Attribute.ent"
+>
+%rm-feature-pc-d-dec;
+
+<!ENTITY % rm-feature-pc-card-d-dec
+SYSTEM "../../topic/dtd/rm-feature-pc-card-d-Attribute.ent"
+>
+%rm-feature-pc-card-d-dec;
+
+<!ENTITY % rm-feature-pc-mainboard-d-dec
+SYSTEM "../../topic/dtd/rm-feature-pc-mainboard-d-Attribute.ent"
+>
+%rm-feature-pc-mainboard-d-dec;
+
+<!ENTITY % rm-feature-pc-optical-d-dec
+SYSTEM "../../topic/dtd/rm-feature-pc-optical-d-Attribute.ent"
+>
+%rm-feature-pc-optical-d-dec;
+
+<!ENTITY % rm-feature-pc-interface-d-dec
+SYSTEM "../../topic/dtd/rm-feature-pc-interface-d-Attribute.ent"
+>
+%rm-feature-pc-interface-d-dec;
+
+<!ENTITY % rm-feature-video-controller-d-dec
+SYSTEM "../../topic/dtd/rm-feature-video-controller-d-Attribute.ent"
+>
+%rm-feature-video-controller-d-dec;
+
+<!ENTITY % rm-feature-video-controller-feat-d-dec
+SYSTEM "../../topic/dtd/rm-feature-video-controller-feat-d-Attribute.ent"
+>
+%rm-feature-video-controller-feat-d-dec;
+
+<!ENTITY % rm-feature-lightbox-typ-d-dec
+SYSTEM "../../topic/dtd/rm-feature-lightbox-typ-d-Attribute.ent"
+>
+%rm-feature-lightbox-typ-d-dec;
+
+<!ENTITY % rm-feature-screens-d-dec
+SYSTEM "../../topic/dtd/rm-feature-screens-d-Attribute.ent"
+>
+%rm-feature-screens-d-dec;
+
+<!ENTITY % rm-feature-service-element-d-dec
+SYSTEM "../../topic/dtd/rm-feature-service-element-d-Attribute.ent"
+>
+%rm-feature-service-element-d-dec;
+
+<!ENTITY % rm-feature-service-access-d-dec
+SYSTEM "../../topic/dtd/rm-feature-service-access-d-Attribute.ent"
+>
+%rm-feature-service-access-d-dec;
+
+<!ENTITY % rm-feature-ui-io-d-dec
+SYSTEM "../../topic/dtd/rm-feature-ui-io-d-Attribute.ent"
+>
+%rm-feature-ui-io-d-dec;
+
+<!ENTITY % rm-feature-ui-element-d-dec
+SYSTEM "../../topic/dtd/rm-feature-ui-element-d-Attribute.ent"
+>
+%rm-feature-ui-element-d-dec;
+
+<!ENTITY % rm-feature-display-d-dec
+SYSTEM "../../topic/dtd/rm-feature-display-d-Attribute.ent"
+>
+%rm-feature-display-d-dec;
+
+<!ENTITY % rm-feature-display-glass-d-dec
+SYSTEM "../../topic/dtd/rm-feature-display-glass-d-Attribute.ent"
+>
+%rm-feature-display-glass-d-dec;
+
+<!ENTITY % rm-dokument-typ-d-dec
+SYSTEM "../../topic/dtd/rm-dokument-typ-d-Attribute.ent"
+>
+%rm-dokument-typ-d-dec;
+
+<!ENTITY % rm-feature-commandbar-status-led-d-dec
+SYSTEM "../../topic/dtd/rm-feature-commandbar-status-led-d-Attribute.ent"
+>
+%rm-feature-commandbar-status-led-d-dec;
+
+
+<!-- ============================================================= -->
+<!--                    DOMAIN EXTENSIONS                          -->
+<!-- ============================================================= -->
+<!--                    One for each extended base element, with
+                        the name of the domain(s) in which the
+                        extension was declared                     -->
+
+<!ENTITY % topicref     "topicref |
+                         %mapgroup-d-topicref; |
+                         %ditavalref-d-topicref;
+                        ">
+<!ENTITY % keywords     "keywords |
+                         %delay-d-keywords;
+                        ">
+<!ENTITY % index-base   "index-base |
+                         %indexing-d-index-base;
+                        ">
+<!ENTITY % note         "note |
+                         %hazard-d-note;
+                        ">
+<!ENTITY % ph           "ph |
+                         %hi-d-ph; |
+                         %pr-d-ph; |
+                         %sw-d-ph; |
+                         %ui-d-ph;
+                        ">
+<!ENTITY % fig          "fig |
+                         %ut-d-fig; |
+                         %pr-d-fig;
+                        ">
+<!ENTITY % data         "data |
+                         %ut-d-data;
+                        ">
+<!ENTITY % term         "term |
+                         %abbrev-d-term;
+                        ">
+<!ENTITY % keyword      "keyword |
+                         %markup-d-keyword; |
+                         %pr-d-keyword; |
+                         %sw-d-keyword; |
+                         %ui-d-keyword; |
+                         %xml-d-keyword;
+                        ">
+<!ENTITY % pre          "pre |
+                         %pr-d-pre; |
+                         %sw-d-pre; |
+                         %ui-d-pre;
+                        ">
+<!ENTITY % dl           "dl |
+                         %pr-d-dl;
+                        ">
+<!ENTITY % metadata     "metadata |
+                         %relmgmt-d-metadata;
+                        ">
+<!ENTITY % author       "author |
+                         %xnal-d-author;
+                        ">
+
+<!-- ============================================================= -->
+<!--                    DOMAIN ATTRIBUTE EXTENSIONS                -->
+<!-- ============================================================= -->
+
+<!ENTITY % props-attribute-extensions
+  "%deliveryTargetAtt-d-attribute;
+    %rm-bauart-d-attribute;
+%rm-regulatory-d-attribute;
+%rm-typ-d-attribute;
+%rm-feature-d-attribute;
+%rm-firma-d-attribute;
+%rm-bauart-op-integrate-name-d-attribute;
+%rm-bauart-op-module-typ-d-attribute;
+%rm-bauart-op-front-fix-d-attribute;
+%rm-bauart-op-install-tray-d-attribute;
+%rm-bauart-op-doctray-type-d-attribute;
+%rm-feature-ip-d-attribute;
+%rm-feature-commandbar-typ-d-attribute;
+%rm-feature-commandbar-button-d-attribute;
+%rm-feature-power-d-attribute;
+%rm-feature-ui-io-d-attribute;
+%rm-feature-ui-element-d-attribute;
+%rm-feature-service-element-d-attribute;
+%rm-feature-service-access-d-attribute;
+%rm-feature-protection-d-attribute;
+%rm-feature-touch-d-attribute;
+%rm-feature-emc-class-d-attribute;
+%rm-feature-zpa-d-attribute;
+%rm-feature-video-port-d-attribute;
+%rm-feature-pc-port-d-attribute;
+%rm-feature-pc-d-attribute;
+%rm-feature-pc-card-d-attribute;
+%rm-feature-pc-mainboard-d-attribute;
+%rm-feature-pc-optical-d-attribute;
+%rm-feature-pc-interface-d-attribute;
+%rm-feature-video-controller-d-attribute;
+%rm-feature-video-controller-feat-d-attribute;
+%rm-feature-lightbox-typ-d-attribute;
+%rm-feature-screens-d-attribute;
+%rm-feature-display-d-attribute;
+%rm-feature-display-glass-d-attribute;
+%rm-feature-commandbar-status-led-d-attribute;
+%rm-dokument-typ-d-attribute;
+  
+  
+  "
+>
+<!ENTITY % base-attribute-extensions
+  ""
+>
+
+<!-- ============================================================= -->
+<!--                    DOMAINS ATTRIBUTE OVERRIDE                 -->
+<!-- ============================================================= -->
+
+<!ENTITY included-domains
+                          "&mapgroup-d-att;
+                           &bookmap-att;
+                           &abbrev-d-att;
+                           &delay-d-att;
+                           &deliveryTargetAtt-d-att;
+                           &ditavalref-d-att;
+                           &hazard-d-att;
+                           &hi-d-att;
+                           &indexing-d-att;
+                           &markup-d-att;
+                           &pr-d-att;
+                           &relmgmt-d-att;
+                           &sw-d-att;
+                           &ui-d-att;
+                           &ut-d-att;
+                           &xnal-d-att;
+                           &xml-d-att;
+                           &rm-bauart-d-att;
+                           &rm-regulatory-d-att;
+                           &rm-typ-d-att;
+                           &rm-feature-d-att;
+                           &rm-firma-d-att;
+                           &rm-bauart-op-integrate-name-d-att;
+                           &rm-bauart-op-module-typ-d-att;
+                           &rm-bauart-op-front-fix-d-att;                           
+                           &rm-bauart-op-doctray-type-d-att;
+                            &rm-bauart-op-install-tray-d-att;
+                            &rm-feature-ip-d-att;
+                            &rm-feature-commandbar-typ-d-att;
+                            &rm-feature-commandbar-button-d-att;
+                            &rm-feature-power-d-att;
+                            &rm-feature-protection-d-att;
+                            &rm-feature-touch-d-att;
+                            &rm-feature-emc-class-d-att;
+                            &rm-feature-zpa-d-att;
+                            &rm-feature-video-port-d-att;
+                            &rm-feature-pc-port-d-att;
+                            &rm-feature-pc-d-att;
+                            &rm-feature-pc-card-d-att;
+                            &rm-feature-pc-mainboard-d-att;
+                            &rm-feature-pc-optical-d-att;
+                            &rm-feature-pc-interface-d-att;
+                            &rm-feature-service-access-d-att;
+                            &rm-feature-service-element-d-att;
+                            &rm-feature-ui-io-d-att;
+                            &rm-feature-ui-element-d-att;
+                            &rm-feature-video-controller-d-att;
+                            &rm-feature-video-controller-feat-d-att;
+                            &rm-feature-lightbox-typ-d-att;
+                            &rm-feature-screens-d-att;
+                            &rm-feature-display-d-att;
+                            &rm-feature-display-glass-d-att;
+                            &rm-feature-commandbar-status-led-d-att;
+                            &rm-dokument-typ-d-att;
+  "
+>
+
+<!-- ============================================================= -->
+<!--                    CONTENT CONSTRAINT INTEGRATION             -->
+<!-- ============================================================= -->
+
+<!-- ============================================================= -->
+<!--                      MAP ELEMENT INTEGRATION                  -->
+<!-- ============================================================= -->
+
+<!ENTITY % map-type
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Map//EN"
+         "../../base/dtd/map.mod"
+>%map-type;
+
+<!ENTITY % bookmap-type
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 BookMap//EN"
+         "bookmap.mod"
+>%bookmap-type;
+
+<!-- ============================================================= -->
+<!--                    DOMAIN ELEMENT INTEGRATION                 -->
+<!-- ============================================================= -->
+
+<!ENTITY % mapgroup-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Map Group Domain//EN"
+         "../../base/dtd/mapGroup.mod"
+>%mapgroup-d-def;
+
+<!ENTITY % abbrev-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Abbreviated Form Domain//EN"
+         "../../technicalContent/dtd/abbreviateDomain.mod"
+>%abbrev-d-def;
+
+<!ENTITY % delay-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Delayed Resolution Domain//EN"
+         "../../base/dtd/delayResolutionDomain.mod"
+>%delay-d-def;
+
+<!ENTITY % ditavalref-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 DITAVAL Ref Domain//EN"
+         "../../base/dtd/ditavalrefDomain.mod"
+>%ditavalref-d-def;
+
+<!ENTITY % hazard-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Hazard Statement Domain//EN"
+         "../../base/dtd/hazardstatementDomain.mod"
+>%hazard-d-def;
+
+<!ENTITY % hi-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Highlight Domain//EN"
+         "../../base/dtd/highlightDomain.mod"
+>%hi-d-def;
+
+<!ENTITY % indexing-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Indexing Domain//EN"
+         "../../base/dtd/indexingDomain.mod"
+>%indexing-d-def;
+
+<!ENTITY % markup-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Markup Domain//EN"
+         "../../technicalContent/dtd/markupDomain.mod"
+>%markup-d-def;
+
+<!ENTITY % pr-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Programming Domain//EN"
+         "../../technicalContent/dtd/programmingDomain.mod"
+>%pr-d-def;
+
+<!ENTITY % relmgmt-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Release Management Domain//EN"
+         "../../technicalContent/dtd/releaseManagementDomain.mod"
+>%relmgmt-d-def;
+
+<!ENTITY % sw-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Software Domain//EN"
+         "../../technicalContent/dtd/softwareDomain.mod"
+>%sw-d-def;
+
+<!ENTITY % ui-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 User Interface Domain//EN"
+         "../../technicalContent/dtd/uiDomain.mod"
+>%ui-d-def;
+
+<!ENTITY % ut-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 Utilities Domain//EN"
+         "../../base/dtd/utilitiesDomain.mod"
+>%ut-d-def;
+
+<!ENTITY % xnal-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 XNAL Domain//EN"
+         "../../xnal/dtd/xnalDomain.mod"
+>%xnal-d-def;
+
+<!ENTITY % xml-d-def
+  PUBLIC "-//OASIS//ELEMENTS DITA 1.3 XML Domain//EN"
+         "../../technicalContent/dtd/xmlDomain.mod"
+>%xml-d-def;
+
+<!-- ================= End of DITA Book Map Shell ================= -->

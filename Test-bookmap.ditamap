@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap SYSTEM "bookmap/dtd/bookmap.dtd">
+<bookmap rm-feature-display="FullHD">
+    <booktitle>
+        <mainbooktitle>Main book title</mainbooktitle>
+    </booktitle>
+    <chapter></chapter>
+</bookmap>
