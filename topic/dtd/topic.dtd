@@ -142,6 +142,21 @@ SYSTEM "rm-bauart-d-Attribute.ent"
 >
 %rm-bauart-d-dec;
 
+<!ENTITY % rm-brand-d-dec
+SYSTEM "rm-brand-d-Attribute.ent"
+>
+%rm-brand-d-dec;
+
+<!ENTITY % rm-hersteller-d-dec
+SYSTEM "rm-hersteller-d-Attribute.ent"
+>
+%rm-hersteller-d-dec;
+
+<!ENTITY % rm-ib-modul-d-dec
+SYSTEM "rm-ib-modul-d-Attribute.ent"
+>
+%rm-ib-modul-d-dec;
+
 <!ENTITY % rm-regulatory-d-dec
 SYSTEM "rm-regulatory-d-Attribute.ent"
 >
@@ -322,7 +337,6 @@ SYSTEM "rm-feature-commandbar-status-led-d-Attribute.ent"
 >
 %rm-feature-commandbar-status-led-d-dec;
 
-
 <!-- ============================================================= -->
 <!--                    DOMAIN EXTENSIONS                          -->
 <!-- ============================================================= -->
@@ -388,6 +402,9 @@ SYSTEM "rm-feature-commandbar-status-led-d-Attribute.ent"
   "%deliveryTargetAtt-d-attribute;
 
 %rm-bauart-d-attribute;
+%rm-brand-d-attribute;
+%rm-hersteller-d-attribute;
+%rm-ib-modul-d-attribute;
 %rm-regulatory-d-attribute;
 %rm-typ-d-attribute;
 %rm-feature-d-attribute;
@@ -459,6 +476,9 @@ SYSTEM "rm-feature-commandbar-status-led-d-Attribute.ent"
                            &ut-d-att;
                            &xml-d-att;
                            &rm-bauart-d-att;
+                           &rm-brand-d-att;
+                           &rm-hersteller-d-att;
+                           &rm-ib-modul-d-att;
                            &rm-regulatory-d-att;
                            &rm-typ-d-att;
                            &rm-feature-d-att;
