@@ -24,5 +24,5 @@ PUBLIC "-//reinmedical//ENTITIES DITA bauart Attribute Domain//EN"
 
 
 <!ENTITY rm-ib-modul-d-att
-                        "a(props rm-feature-commandbar-typ)">
+                        "a(props rm-ib-modul)">
 <!-- ================================= End of file ================================== -->
