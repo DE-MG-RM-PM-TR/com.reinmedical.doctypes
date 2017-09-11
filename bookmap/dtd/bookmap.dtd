@@ -234,6 +234,11 @@ SYSTEM "../../topic/dtd/rm-feature-commandbar-typ-d-Attribute.ent"
 >
 %rm-feature-commandbar-typ-d-dec;
 
+<!ENTITY % rm-feature-hygiene-d-dec
+SYSTEM "../../topic/dtd/rm-feature-hygiene-d-Attribute.ent"
+>
+%rm-feature-hygiene-d-dec;
+
 <!ENTITY % rm-feature-power-d-dec
 SYSTEM "../../topic/dtd/rm-feature-power-d-Attribute.ent"
 >
@@ -430,6 +435,7 @@ SYSTEM "../../topic/dtd/rm-feature-commandbar-status-led-d-Attribute.ent"
 %rm-feature-ip-d-attribute;
 %rm-feature-commandbar-typ-d-attribute;
 %rm-feature-commandbar-button-d-attribute;
+%rm-feature-hygiene-d-attribute;
 %rm-feature-power-d-attribute;
 %rm-feature-ui-io-d-attribute;
 %rm-feature-ui-element-d-attribute;
@@ -500,6 +506,7 @@ SYSTEM "../../topic/dtd/rm-feature-commandbar-status-led-d-Attribute.ent"
                             &rm-feature-ip-d-att;
                             &rm-feature-commandbar-typ-d-att;
                             &rm-feature-commandbar-button-d-att;
+                            &rm-feature-hygiene-d-att;
                             &rm-feature-power-d-att;
                             &rm-feature-protection-d-att;
                             &rm-feature-touch-d-att;
