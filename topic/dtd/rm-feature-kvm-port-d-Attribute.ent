@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ================================================================================ -->
+<!--  Refer to this file by the following public identifier or an 
+      appropriate system identifier 
+PUBLIC "-//reinmedical//ENTITIES DITA bauart Attribute Domain//EN"
+      Delivered as file "bauartAttDomain.ent"  -->
+<!-- ================================================================================ -->
+
+
+<!-- ================================================================================ -->
+<!--                     ATTRIBUTE EXTENSION ENTITY DECLARATIONS                      -->
+<!-- ================================================================================ -->
+
+
+
+<!ENTITY % rm-feature-kvm-port-d-attribute
+                        "rm-feature-kvm-port CDATA #IMPLIED">
+                        
+                        
+<!-- ================================================================================ -->
+<!--                            DOMAIN ENTITY DECLARATION                             -->
+<!-- ================================================================================ -->
+
+
+
+<!ENTITY rm-feature-kvm-port-d-att
+                        "a(props rm-feature-kvm-port)">
+<!-- ================================= End of file ================================== -->

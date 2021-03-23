@@ -257,6 +257,12 @@ SYSTEM "rm-feature-pc-port-d-Attribute.ent"
 >
 %rm-feature-pc-port-d-dec;
 
+<!ENTITY % rm-feature-kvm-port-d-dec
+SYSTEM "rm-feature-kvm-port-d-Attribute.ent"
+>
+%rm-feature-kvm-port-d-dec;
+
+
 <!ENTITY % rm-feature-pc-d-dec
 SYSTEM "rm-feature-pc-d-Attribute.ent"
 >
@@ -433,6 +439,7 @@ SYSTEM "rm-feature-commandbar-status-led-d-Attribute.ent"
 %rm-feature-emc-class-d-attribute;
 %rm-feature-zpa-d-attribute;
 %rm-feature-video-port-d-attribute;
+%rm-feature-kvm-port-d-attribute;
 %rm-feature-pc-port-d-attribute;
 %rm-feature-pc-d-attribute;
 %rm-feature-pc-card-d-attribute;
@@ -504,6 +511,7 @@ SYSTEM "rm-feature-commandbar-status-led-d-Attribute.ent"
                             &rm-feature-emc-class-d-att;
                             &rm-feature-zpa-d-att;
                             &rm-feature-video-port-d-att;
+                            &rm-feature-kvm-port-d-att;
                             &rm-feature-pc-port-d-att;
                             &rm-feature-pc-d-att;
                             &rm-feature-pc-card-d-att;
